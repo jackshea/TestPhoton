@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using TestPhotonModel.CommonFunction;
 using TestPhotonModel.Entities;
+using System.Data.SqlClient;
 
 namespace TestPhotonModel.EntityOperators
 {
