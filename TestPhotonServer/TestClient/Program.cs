@@ -12,6 +12,7 @@ namespace TestClient
         static void Main(string[] args)
         {
             AccountOp.CreatAccout("xiezaikui", "123456");
+            Console.WriteLine("成功！");
         }
     }
 }
