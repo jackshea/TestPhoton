@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPhotonServer", "TestPhotonServer\TestPhotonServer.csproj", "{63081A7D-1B64-4011-BA1D-18BA15FED2DA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestClient", "TestClient\TestClient.csproj", "{796F2990-81ED-4A6D-BDA2-F5AB772FB18D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPhotonModel", "TestPhotonModel\TestPhotonModel.csproj", "{B96BC721-E0BA-44A7-BDE8-382C1F0783E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPhotonModelTests", "TestPhotonModelTests\TestPhotonModelTests.csproj", "{E1056EA7-DF44-4A5A-B4FF-B2B922DA6727}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +51,18 @@ Global
 		{B96BC721-E0BA-44A7-BDE8-382C1F0783E0}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{B96BC721-E0BA-44A7-BDE8-382C1F0783E0}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{B96BC721-E0BA-44A7-BDE8-382C1F0783E0}.Release|Win32.ActiveCfg = Release|Any CPU
+		{E1056EA7-DF44-4A5A-B4FF-B2B922DA6727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1056EA7-DF44-4A5A-B4FF-B2B922DA6727}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1056EA7-DF44-4A5A-B4FF-B2B922DA6727}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{E1056EA7-DF44-4A5A-B4FF-B2B922DA6727}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{E1056EA7-DF44-4A5A-B4FF-B2B922DA6727}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{E1056EA7-DF44-4A5A-B4FF-B2B922DA6727}.Debug|Win32.Build.0 = Debug|Any CPU
+		{E1056EA7-DF44-4A5A-B4FF-B2B922DA6727}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1056EA7-DF44-4A5A-B4FF-B2B922DA6727}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1056EA7-DF44-4A5A-B4FF-B2B922DA6727}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{E1056EA7-DF44-4A5A-B4FF-B2B922DA6727}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{E1056EA7-DF44-4A5A-B4FF-B2B922DA6727}.Release|Win32.ActiveCfg = Release|Any CPU
+		{E1056EA7-DF44-4A5A-B4FF-B2B922DA6727}.Release|Win32.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

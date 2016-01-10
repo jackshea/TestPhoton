@@ -10,6 +10,6 @@ namespace TestPhotonModel
 {
     public class EntityContext : DbContext
     {
-        public DbSet<Account> Accouts { get; set; }
+        public DbSet<Account> Accounts { get; set; }
     }
 }
