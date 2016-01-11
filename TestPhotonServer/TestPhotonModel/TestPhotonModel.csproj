@@ -67,6 +67,11 @@
     <Compile Include="EntityContext.cs" />
     <Compile Include="Entities\Account.cs" />
     <Compile Include="EntityOperators\AccountOp.cs" />
+    <Compile Include="Migrations\201601111526246_TestPhotonModelUpdate.cs" />
+    <Compile Include="Migrations\201601111526246_TestPhotonModelUpdate.Designer.cs">
+      <DependentUpon>201601111526246_TestPhotonModelUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -93,6 +98,11 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201601111526246_TestPhotonModelUpdate.resx">
+      <DependentUpon>201601111526246_TestPhotonModelUpdate.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
