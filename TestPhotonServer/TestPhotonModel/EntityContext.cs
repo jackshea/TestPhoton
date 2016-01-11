@@ -1,15 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Data.Entity;
 using TestPhotonModel.Entities;
 
 namespace TestPhotonModel
 {
     public class EntityContext : DbContext
     {
+        public EntityContext() : base("EntityContext")
+        {
+        }
+
         public DbSet<Account> Accounts { get; set; }
     }
 }
