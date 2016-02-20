@@ -19,8 +19,8 @@ namespace TestPhotonModel.EntityOperators
             using (var context = new EntityContext())
             {
                 account = (from a in context.Accounts
-                    where a.Id == accountId
-                    select a).FirstOrDefault();
+                           where a.Id == accountId
+                           select a).FirstOrDefault();
             }
             return account;
         }
@@ -36,8 +36,8 @@ namespace TestPhotonModel.EntityOperators
             using (var context = new EntityContext())
             {
                 account = (from a in context.Accounts
-                    where a.UserName == username
-                    select a).FirstOrDefault();
+                           where a.UserName == username
+                           select a).FirstOrDefault();
             }
             return account;
         }
@@ -124,8 +124,8 @@ namespace TestPhotonModel.EntityOperators
             using (var context = new EntityContext())
             {
                 Account account = (from a in context.Accounts
-                           where a.Id == accountId
-                           select a).FirstOrDefault();
+                                   where a.Id == accountId
+                                   select a).FirstOrDefault();
                 if (account == null)
                 {
                     return 0;
